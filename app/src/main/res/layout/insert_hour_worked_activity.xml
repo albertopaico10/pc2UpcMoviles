@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/id_title_worked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="5dp"
+        android:text="Viral Android"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/id_description_worked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:text="Viral Android"
+        android:textColor="#6e6e6e"
+        android:textSize="15sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/id_date_worked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="1dp"
+        android:text="Fecha"
+        android:textColor="#6e6e6e"
+        android:textSize="10sp"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/id_hours"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Cantidad de horas :"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="4dp"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="Grabar"
+        android:id="@+id/btn_save"
+        android:clickable="true"
+        android:textColor="#fff" />
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Pc2</string>
+
+    <string name="str_date">La fecha de tarea :</string>
+    <string name="str_hours">Cantidad de Horas :</string>
+</resources>
